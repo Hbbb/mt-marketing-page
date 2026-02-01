@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "CHZPTSK255.com.theloosecollective.meditationtimer",
+        "paths": [
+          "/invite",
+          "/invite/*",
+          "/invite?*"
+        ]
+      }
+    ]
+  }
+}

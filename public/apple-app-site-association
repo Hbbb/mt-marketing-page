@@ -1,13 +1,17 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "CHZPTSK255.com.theloosecollective.meditationtimer",
-        "paths": [
-          "/invite",
-          "/invite/*",
-          "/invite?*"
+        "appIDs": ["CHZPTSK255.com.theloosecollective.meditationtimer"],
+        "components": [
+          {
+            "/": "/invite",
+            "comment": "Match /invite with any query"
+          },
+          {
+            "/": "/invite/*",
+            "comment": "Match /invite/… paths"
+          }
         ]
       }
     ]
